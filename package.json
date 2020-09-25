@@ -31,10 +31,12 @@
     "react-dom": "^0.14.0|| ^15.0.0"
   },
   "dependencies": {
-    "camelcase": "^4.0.0"
+    "camelcase": "^4.0.0",
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "@types/electron": "^1.4.26",
+    "@types/prop-types": "^15.7.3",
     "@types/react": "^0.14.47",
     "babel": "^6.3.26",
     "babel-cli": "^6.3.17",

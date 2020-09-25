@@ -1,6 +1,7 @@
 import React from 'react';
 import { findDOMNode } from 'react-dom';
 import camelCase from 'camelcase';
+import PropTypes from 'prop-types'
 
 const EVENTS = [
   'load-commit',
@@ -73,27 +74,27 @@ export default class WebView extends React.Component {
             .forEach(method => this[method] = node[method]);
     });
   }
-}
+}``
 
 const tagPropTypes = {
-  autosize: React.PropTypes.bool,
-  disablewebsecurity: React.PropTypes.bool,
-  httpreferrer: React.PropTypes.string,
-  nodeintegration: React.PropTypes.bool,
-  plugins: React.PropTypes.bool,
-  preload: React.PropTypes.string,
-  src: React.PropTypes.string,
-  useragent: React.PropTypes.string,
-  partition: React.PropTypes.string,
-  allowpopups: React.PropTypes.bool,
-  webpreferences: React.PropTypes.string,
-  blinkfeatures: React.PropTypes.string,
-  disableblinkfeatures: React.PropTypes.string,
-  guestinstance: React.PropTypes.string,
+  autosize: PropTypes.bool,
+  disablewebsecurity: PropTypes.bool,
+  httpreferrer: PropTypes.string,
+  nodeintegration: PropTypes.bool,
+  plugins: PropTypes.bool,
+  preload: PropTypes.string,
+  src: PropTypes.string,
+  useragent: PropTypes.string,
+  partition: PropTypes.string,
+  allowpopups: PropTypes.bool,
+  webpreferences: PropTypes.string,
+  blinkfeatures: PropTypes.string,
+  disableblinkfeatures: PropTypes.string,
+  guestinstance: PropTypes.string,
 };
 
 const eventPropTypes = EVENTS_HANDLERS.reduce((propTypes, { event, handler }) => {
-  propTypes[handler] = React.PropTypes.func;
+  propTypes[handler] = PropTypes.func;
   return propTypes;
 }, {});
 
