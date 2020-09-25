@@ -60,5 +60,5 @@
     "semantic-release": "^17.1.2",
     "webpac": "0.0.1-security"
   },
-  "version": "2.0.1"
+  "version": "2.0.2"
 }
