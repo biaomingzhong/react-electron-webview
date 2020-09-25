@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "karma start",
-    "prepublish": "babel src/webview.js --out-file index.js",
+    "prepare": "babel src/webview.js --out-file index.js",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "files": [
