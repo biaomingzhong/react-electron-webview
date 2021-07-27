@@ -20,6 +20,9 @@ export interface WebViewProps extends React.HTMLAttributes<Electron.WebViewEleme
   guestinstance?: string
   
   onLoadCommit?: EventListener
+  onDidNavigate?: EventListener
+  onDidNavigateInPage?: EventListener
+  onWillNavigate?: EventListener
   onDidFinishLoad?: EventListener
   onDidFailLoad?: EventListener
   onDidFrameFinishLoad?: EventListener

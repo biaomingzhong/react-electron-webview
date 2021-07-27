@@ -1,5 +1,5 @@
 {
-  "name": "@tianhuil/react-electron-webview",
+  "name": "@updating/react-electron-webview",
   "description": "React component for the <webview> element in Electron.",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/keokilee/react-electron-webview.git"
+    "url": "https://github.com/biaomingzhong/react-electron-webview.git"
   },
   "keywords": [
     "react",
@@ -22,9 +22,9 @@
   "author": "George Lee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/keokilee/react-electron-webview/issues"
+    "url": "https://github.com/biaomingzhong/react-electron-webview/issues"
   },
-  "homepage": "https://github.com/keokilee/react-electron-webview#readme",
+  "homepage": "https://github.com/biaomingzhong/react-electron-webview#readme",
   "peerDependencies": {
     "electron": "^1.0.0",
     "react": "^0.14.0 || ^15.0.0",

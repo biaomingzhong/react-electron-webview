@@ -5,6 +5,9 @@ import PropTypes from 'prop-types'
 
 const EVENTS = [
   'load-commit',
+  'did-navigate',
+  'did-navigate-in-page',
+  'will-navigate',
   'did-finish-load',
   'did-fail-load',
   'did-frame-finish-load',
